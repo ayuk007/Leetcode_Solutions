@@ -1,7 +1,6 @@
 class Solution {
 public:
     vector<vector<int>> merge(vector<vector<int>>& intervals) {
-        // Take two pointers start and end
         sort(intervals.begin(), intervals.end());
 
         // Edge Case: if there is only one interval
